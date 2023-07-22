@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de medidas</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Conversor de medidas</h1>
+        </div>
+        <div class="cards">
+            <p class="p">De:</p>
+            <select name="de" id="de">
+                <option value="m" class="m">Metros(m)</option>
+                <option value="mm">Milimetros(mm)</option>
+                <option value="cm"> Centímetros(cm)</option>
+                <option value="in"> Polegadas (in)</option>
+                <option value="mi"> Milhas(mi)</option>
+                <option value="yd"> Jardas(yd)</option>
+                <option value="km"> Quilômetros(km)</option>
+            </select>
+        
+            <p class="p">Para:</p>
+            <select name="para" id="para">
+                <option value="m">Metros(m)</option>
+                <option value="mm">Milimetros(mm)</option>
+                <option value="cm"> Centímetros(cm)</option>
+                <option value="in"> Polegadas (in)</option>
+                <option value="mi"> Milhas(mi)</option>
+                <option value="yd"> Jardas(yd)</option>
+                <option value="km"> Quilômetros(km)</option>
+            </select>
+            <p class="p">Quantidade: </p>
+         <input type="number" class="qntd" placeholder="0">
+          
+            <button type="button" id="botao">Converter</button>
+    
+        </div>
+        <div class="res" id="res"><p>Resultado:</p></div>
+
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
